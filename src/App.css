@@ -39,3 +39,16 @@
     transform: rotate(360deg);
   }
 }
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+
+}
+li {
+float: left;
+}
+ul {
+  list-style: none;
+}
