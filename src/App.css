@@ -1,7 +1,7 @@
 .App {
   text-align: center;
-  color: darkcyan;
-  font-size: xx-large;
+  color: rgb(8, 8, 8);
+  font-size: x-large;
 
 }
 
@@ -51,4 +51,38 @@ float: left;
 }
 ul {
   list-style: none;
+}
+#CreateAccount {
+  background-color: white; 
+  color: rgb(43, 43, 226); 
+  border: 3px solid rgb(13, 13, 241);
+  font-size: 16px;
+  margin: 4px 2px;
+  padding: 12px 27px;
+  transition-duration: 0.4s;
+}
+#CreateAccount:hover {
+  background-color: rgb(13, 13, 241);
+  color: white;
+  
+}
+#text{
+text-align: start;
+}
+#icon{
+position: absolute;
+}
+#Download{
+  background-color: rgb(52, 65, 248); 
+  color: white; 
+  font-size: 16px;
+  margin: 4px 2px;
+  padding: 12px 27px;
+  transition-duration: 0.4s;
+
+}
+#Download:hover{
+  background-color: rgb(19, 27, 134); 
+  color: white;
+
 }
