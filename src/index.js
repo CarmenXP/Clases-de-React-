@@ -3,7 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+//router
+import {BrowserRouter} from './serviceWorker';
 
+let WithRouter= () =><BrowserRouter><React.StrictMode><App/></React.StrictMode></BrowserRouter>
 ReactDOM.render(
   <React.StrictMode>
     <App />

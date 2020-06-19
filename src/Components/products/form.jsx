@@ -1,6 +1,5 @@
 import React, {Component} from 'react'
 let logo = "https://send.firefox.com/icon.fd04d81a.svg"
-
 class Form extends Component{
 
     state={
@@ -24,9 +23,9 @@ render(){
             <img src={logo}/>
 <h2>
     {this.state.name}
-    {this.state.email}
-    {this.state.tel}
-    {this.state.age}
+    {this.state.email} 
+    {this.state.tel} 
+    {this.state.age} 
     {/* nombre, correo, tel, edad*/}
 </h2>
 <input name="name" onChange={this.whenChange} type="text" placeholder="Escribe tu nombre"/>
