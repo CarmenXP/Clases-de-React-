@@ -1,21 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
-import Home from './Components/Home'
-import Navbar from './Components/Navbar';
-import Title from './Components/Title';
-import Button from './Components/Button';
-import Image from './Components/Image';
-import ProductsPage from './Components/products/ProductPage';
+//import Home from './Components/Home'
+//import Navbar from './Components/Navbar';
+//import Title from './Components/Title';
+//import Button from './Components/Button';
+//import Image from './Components/Image';
+//import ProductsPage from './Components/products/ProductPage';
+import Routes from './Routes';
+import {Link, NavLink} from 'react-router-dom'
 
 
 
-function App() {
+const App= () => {
   return (
-    <div className="App">
+    <div>
+      <nav>
+        <NavLink exact activeClassName="active" to="/">Home </NavLink>
+        <NavLink activeClassName="active" to="/products">Catálogo</NavLink>
+      </nav>
+      <Routes/>
     
     
-    <ProductsPage/>
+    
     
             
     
